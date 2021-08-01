@@ -10,26 +10,35 @@
         margin-left: 370px;
         display:none ;
    }
+        
+
+   .market-background {
+    background-color:#ffff;
+    height: 120px;
+    width: 100%;
+   }
 
 
-     .dash{
+      
+
+     /* .dash{
         position: absolute;
-        left: 680px;
+        left: 980px;
         bottom: 30px;
-        display:block ; 
-     }
+         display:block ;  
+        font-size: 30px;
+     }  */
 
-
+/* 
     .hang-b{
       position: absolute;
-      left: 680px;
       bottom: 30px;
-      display: block;
-    }
+      /* display: block; */
+    } 
    
-   .container-nav ul li{
+   /* .container-nav ul li{
        padding: 10px;
-   }
+   } */
 
    .container-navbar ul {
        display: block;
@@ -41,50 +50,52 @@
    .container-navbar ul li {
        text-align: center;
        font-size: 25px;
+
    }
 
 
     .header-btn{
         margin-left: 20px;
-        width: 710px;
+        width: 910px;
+        height: 50px;
         font-size: 25px;
-        margin-top: 60px;
+        margin-top: 98px;
     }
 
       .loop {
      background:#FFFFFF;
-     width: 710px;
-     height: 64px;
+     width: 910px;
+     height: 74px;
      border-radius: 99px;
-     margin-top: 10px;
+     margin-top: 0px;
      padding: 20px;
     } 
 
     .loop select{
-        margin-left: 20px;
+        margin-left:  30px;
     }
 
     .loop svg{
-        margin: 0 20px;
+        font-size: 40px;
         
     }
       
 
     .soop {
         background:#FFFFFF;
-        width: 710px;
-        height: 64px;
+        width: 910px;
+        height: 74px;
         border-radius: 99px;
-        margin-top: 30px;
+        margin-top: 50px;
         padding: 15px;
        }
 
        .soop select{
-           margin-left: 20px;
+           margin-left: 30px;
        }
 
        .soop svg{
-        margin: 0 20px;
+       
        
     }
        
@@ -106,9 +117,32 @@
     
 }
        
+   .icons{
+    position: absolute;
+    right: 70px;
+    top: 10px;
    }
-   
 
+  .icons svg{
+      width:70px ;
+      height: 60px;
+  }
+
+   
+  .container-logo{
+      position: absolute;
+      left: 20px;
+      bottom: 50px;
+  }
+
+
+  .container-logo  svg{
+      width: 70px;
+      height: 70px;
+  }
+
+
+  
    .note{
        position: relative;
        bottom: 470px;
@@ -116,7 +150,7 @@
 
 
    .item{
-    width: 720px ;
+    width: 920px ;
 }
 
   .footer h1{
@@ -147,11 +181,11 @@
    }
 
    .nav-logo{
-       font-size: 24px;
+       font-size: 45px;
        margin:40px ;
-       width: 390px;
-       height: 58px;
-       margin-top: 130px;
+       width: 720px;
+       height: 160px;
+       margin-top: 200px;
    }
    
     .container-nav svg{
@@ -190,70 +224,249 @@
   
 
  @media(max-width: 500px) {
+
+
+    .container-nav ul{
+        display: block;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        width: 280px;
+        height: 260px;
+        margin-top: 65px;
+        margin-left: 390px;
+        display:none ;
+   }
+
+
+   .market-background {
+    background-color:#ffff;
+    height: 120px;
+    width: 100%;
+    
+   }
+
+
+   .loop{
+       width: 860px;
+       height: 130px;
+       margin-top: 60px;
+       font-size: 45px;
+   }
+
+
+   .loop select{
+    width: 50px;
+    height: 90px;
+
+   }
+
+   .soop{
+    width: 860px;
+    height: 130px;
+    margin:160px 0px;
+    font-size: 45px;
+
+   }
+
+   .soop select{
+       width: 50px;
+       height: 90px;
+   }
+
+   .soop svg{
+    width: 35px;
+    height: 30px; 
+   }
+
+   .header-btn{
+    width: 860px;
+     height: 130px;
+     margin: 270px 20px;
+     font-size: 40px;
+   }
+
+   .loop svg{
+       font-size: 80px;
+       width: 35px;
+       height: 30px;
+    
+   }
+
+   .vege  span svg{
+       width: 60px;
+       height: 50px;
+   }
+
+   .spices  span svg{
+    width: 60px;
+    height: 50px;
+}
+
+  .fruits  span svg{
+    width: 60px;
+    height: 50px;
+}
+
+   .tube  span svg{
+    width: 60px;
+    height: 50px;
+}
+
+   .palm  span svg{
+    width: 60px;
+    height: 50px;
+}
+
+   .container-navbar ul li {
+       padding-right: 40px;
+       margin: 10px 0;
+   }
+
+   .container-navbar ul{
+       margin-right: 90px;
+       
+   }
   
     .item{
-        width: 720px ;
+        width: 870px ;
+    }
+
+    .container-logo{
+        position: absolute;
+        bottom: 60px;
+    }
+
+    .container-logo svg{
+       margin-left: 20px;
+       margin-top: 10px;
+       font-size: 50px;
+       width: 80px;
+       height: 75px;
     }
 
    .categories ul{
     padding-left: 15px;   
-    width: 690px;
+    overflow-x: scroll;
+    width: 820px;
+    white-space: nowrap;
+  
+   }
+
+
+   .categories ul li a{
+       font-size: 65px;
    }
 
    .nav-logo{
-       margin-bottom: 60px;
+       margin-bottom: 70px;
+       
    }
+
+
+      .icons{
+          position: absolute;
+          right: 150px;
+          bottom: 75px;
+          font-size: 30px;
+      }
      
-     .icons{
-       margin-right: 70px;
+     .icons svg{
+       margin-right: 100px;
+       margin-bottom:70px;
+       width: 80px ;
+       height: 60px;
      }
+
+
+     .hang-b{
+        position: absolute;
+        left: 800px;
+        bottom: 50px;
+        display: block;
+        width: 30px;
+        height: 30px;
+     }
+
+     .hang-b svg{
+        width: 50px ;
+        height: 47px ;
+    }
+
+     .dash{
+        position: absolute;
+        left: 820px;
+        bottom: 20px;
+        /* display: block; */
+        width: 30px;
+        height: 30px;
+      }
+
+     
 
 
     .nav-logo{
-        width: 458px;
-        font-size: 32px;
+        width: 678px;
+        font-size: 45px;
+        margin-top: 190px;
     }
 
    .mas{
-       font-size: 20px;
+       font-size: 40px;
    }
 
+    .mas span svg{
+        width: 180px;
+        height: 30px;
+        font-size: 30px;
+    }
+
      .map{
-         font-size: 25px;
+         font-size: 45px;
      }
 
      .root{
-         font-size: 30px;
+         font-size: 55px;
      }
 
   .note{
       position: relative;
-      bottom: 470px;
-      font-size: 15px;
+      bottom: 590px;
+      width: 200px;
+      height: 60px;
+      font-size: 30px;
+      
   }
+     
+     .note  span svg{
+         width: 25px;
+         height: 25px;
+     }
+     
 
    .footer h1{
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .link{
-      font-size:30px;
+      font-size:40px;
       margin: 0 90px;
+       height:30px ;
+       width:90px ;
      
   }
 
   .foot{
-      font-size: 30px;
-      /* padding: 0 30px; */
+      font-size: 40px;
+    
   }
        
    
-
    .foods{
-      padding-left: 140px;
+      padding-left: 230px;
       width: 180%;
-      font-size: 25px;
-      padding-top: 295px;
+      font-size: 35px;
+      padding-top: 395px;
    }
 
  }
