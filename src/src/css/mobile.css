@@ -405,8 +405,8 @@
 
 
     .nav-logo{
-        width: 100%px;
-        font-size: 50px;
+        width: 800px;
+        font-size: 55px;
         margin-top: 190px;
     }
 
@@ -431,15 +431,15 @@
   .note{
       position: relative;
       bottom: 590px;
-      width: 250px;
+      width: 260px;
       height: 80px;
-      font-size: 30px;
+      font-size: 35px;
       
   }
      
      .note  span svg{
-         width: 34px;
-         height: 33px;
+         width: 35px;
+         height: 35px;
          margin-left:  20px;
      }
      
@@ -450,9 +450,10 @@
 
   .link{
       font-size:40px;
-      margin: 0 90px;
+      margin: 0 100px;
        height:30px ;
        width:90px ;
+    
      
   }
 
@@ -463,10 +464,10 @@
        
    
    .foods{
-      padding-left: 230px;
-      width: 190%;
-      font-size: 35px;
+      padding-left: 130px;
+      width: 800px;
+      font-size: 45px;
       padding-top: 395px;
    }
 
- }
+}
