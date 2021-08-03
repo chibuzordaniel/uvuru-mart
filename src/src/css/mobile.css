@@ -248,10 +248,11 @@
 
 
    .loop{
-       width: 860px;
+       width: 840px;
        height: 130px;
        margin-top: 60px;
        font-size: 45px;
+       padding-right: 30px;
    }
 
 
@@ -261,7 +262,7 @@
    }
 
    .soop{
-    width: 860px;
+    width: 840px;
     height: 130px;
     margin:160px 0px;
     font-size: 45px;
@@ -279,7 +280,7 @@
    }
 
    .header-btn{
-    width: 860px;
+    width: 840px;
      height: 130px;
      margin: 270px 20px;
      font-size: 40px;
@@ -318,7 +319,8 @@
 }
 
    .container-navbar ul li {
-       padding-right: 40px;
+       margin-right: 40px;
+       /* padding-right: 20px; */
        margin: 10px 0;
    }
 
@@ -328,7 +330,8 @@
    }
   
     .item{
-        width: 870px ;
+        width: 840px ;
+        margin: 0 40px;
     }
 
     .container-logo{
@@ -357,11 +360,6 @@
        font-size: 65px;
    }
 
-   .nav-logo{
-       margin-bottom: 70px;
-       
-   }
-
 
       .icons{
           position: absolute;
@@ -380,7 +378,7 @@
 
      .hang-b{
         position: absolute;
-        left: 800px;
+        left: 820px;
         bottom: 50px;
         display: block;
         width: 30px;
@@ -405,9 +403,10 @@
 
 
     .nav-logo{
-        width: 800px;
+        width: 850px;
         font-size: 55px;
-        margin-top: 190px;
+        margin-top: 140px;
+        margin-bottom: 50px;
     }
 
    .mas{
@@ -448,6 +447,10 @@
     font-size: 50px;
   }
 
+  .footer-container{
+      padding: 10px;
+  }
+
   .link{
       font-size:40px;
       margin: 0 100px;
@@ -455,6 +458,11 @@
        width:90px ;
     
      
+  }
+
+
+  .link{
+      padding: 0 px;
   }
 
   .foot{
@@ -466,8 +474,9 @@
    .foods{
       padding-left: 130px;
       width: 800px;
-      font-size: 45px;
-      padding-top: 395px;
+      font-size: 40px;
+      padding-top: 430px;
+      margin-bottom: 20px;
    }
 
 }
