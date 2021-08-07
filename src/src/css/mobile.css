@@ -75,8 +75,7 @@
 
 
     .loop select{
-        width:50px ;
-        height:10px ;
+      margin-left: 30px;  
     }
 
     .soop{
@@ -101,8 +100,7 @@
     }
 
     .soop select{
-        width:50px ;
-        height:10px ;
+        margin-left: 30px;
     }
 
     .header-btn{
@@ -269,7 +267,7 @@
 
 
     .link{
-        margin-left: 90px;
+        margin-left: 190px;
         margin-top: 70px;
         padding-bottom: 30px;      
         font-size: 40px;
