@@ -1,482 +1,277 @@
-@media (max-width: 768px) {
- .container-nav ul{
-        display: block;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 5px;
-        width: 210px;
-        height: 200px;
-        margin-top: 65px;
-        margin-left: 370px;
-        display:none ;
-   }
-        
-
-   .market-background {
-    background-color:#ffff;
-    height: 120px;
-    width: 100%;
-   }
-
-
-      
-
-     /* .dash{
-        position: absolute;
-        left: 980px;
-        bottom: 30px;
-         display:block ;  
-        font-size: 30px;
-     }  */
-
-/* 
-    .hang-b{
-      position: absolute;
-      bottom: 30px;
-      /* display: block; */
-    } 
-   
-   /* .container-nav ul li{
-       padding: 10px;
-   } */
-
-   .container-navbar ul {
-       display: block;
-        color: #8588A3; 
-        background:none;
-        margin-top: 30px;
-   }
-
-   .container-navbar ul li {
-       text-align: center;
-       font-size: 25px;
-
-   }
-
-
-    .header-btn{
-        margin-left: 20px;
-        width: 910px;
-        height: 50px;
-        font-size: 25px;
-        margin-top: 98px;
+@media (max-width:768px)  {
+    .market-background {
+    
     }
 
-      .loop {
-     background:#FFFFFF;
-     width: 910px;
-     height: 74px;
-     border-radius: 99px;
-     margin-top: 0px;
-     padding: 20px;
-    } 
+    .hang-b{
+        display: block;
+        width: 50px;
+        /* height: 20px; */
+        position: absolute;
+        right: 40px;
+        bottom: 25px;
+    }
+      
+     .market-background{
+         height: 120px;
+         width: 100%;
+     }
 
-    .loop select{
-        margin-left:  30px;
+     .container-nav ul{
+         display: none;
+     }
+
+      
+    .container-logo svg{
+     width: 170px;
+     height: 80px;
+     margin-top: 10px;
+    }
+
+    .icons{
+        margin-right: 90px;
+        width: 170px;
+        height: 80px;
+    }
+
+    .nav-logo{
+     width: 750px;
+     height: 58px;
+     font-family: Inter;
+     font-style: normal;
+     font-size: 50px;
+     font-weight: 400px;
+     margin-left: 60px;
+     margin-top: 200px;
+    }
+
+   
+    .container-navbar ul{
+        display: block;
+        background: none;
+    }
+
+     .boom{
+         margin-top: 190px;
+     }
+
+    .loop{
+        background: #fff;
+        width: 884px;
+        height: 95px;
+        text-align: center;
+        padding-top: 15px;
+        border-radius: 99px;
+        margin-left: 30px;
+        font-size: 40px;
+        font-family:Inter ;
     }
 
     .loop svg{
-        font-size: 40px;
-        
+        width: 40px ;
+        height: 40px ;
+        margin-right: 30px;
     }
-      
 
-    .soop {
-        background:#FFFFFF;
-        width: 910px;
-        height: 74px;
+
+    .loop select{
+        width:50px ;
+        height:10px ;
+    }
+
+    .soop{
+        background: #fff;
+        width: 884px;
+        height: 95px;
+        text-align: center;
+        padding-bottom: 35px;
+        margin-top: 60px;
         border-radius: 99px;
-        margin-top: 50px;
-        padding: 15px;
-       }
-
-       .soop select{
-           margin-left: 30px;
-       }
-
-       .soop svg{
-       
-       
-    }
-       
-       
-       .repo svg{
-        font-size: 90px;
+        margin-left: 30px;
+        font-family: Inter;
+        font-size: 40px;
+        padding: 10px;
     }
 
 
-   .top{
-       width: 210px;
-       height: 45px;
-       margin-top: 15px;
-       
-   }
-
-   .foot{
-    font-size: 25px;
-    
-}
-       
-   .icons{
-    position: absolute;
-    right: 70px;
-    top: 10px;
-   }
-
-  .icons svg{
-      width:70px ;
-      height: 60px;
-  }
-
-   
-  .container-logo{
-      position: absolute;
-      left: 20px;
-      bottom: 50px;
-  }
-
-
-  .container-logo  svg{
-      width: 70px;
-      height: 70px;
-  }
-
-
-  
-   .note{
-       position: relative;
-       bottom: 470px;
-   }
-
-
-   .item{
-    width: 920px ;
-}
-
-  .footer h1{
-    font-size: 35px;
-  }
-
-  
-  .link{
-    margin-left: 90px;
-    font-size: 25px;
-   
-}
-
-.foods{
-    width: 100%;
-    font-size: 20px;
-    padding-top: 120px;
- }
-
-   .rest{
-       padding-top: 20px;
-   }
-
-   .rest:hover{
-      color: #FF473E;
-       width: 186px ;
-       height: 36px ;
-   }
-
-   .nav-logo{
-       font-size: 45px;
-       margin:40px ;
-       width: 720px;
-       height: 160px;
-       margin-top: 200px;
-   }
-   
-    .container-nav svg{
-        margin: 0 20px;
+    .soop svg{
+        width:40px ;
+        height: 40px;
+        margin-right: 40px;
     }
 
-
-    .span{
-        display: block;
+    .soop select{
+        width:50px ;
+        height:10px ;
     }
 
-    .items-rectangle{
-        margin-left: 10px;
-    }
-
-
-    .footer-container{
-        display: block;
-    }
-
-    .background-footer{
-        background: none;
-        margin-left: 10px;
-    }
-
-     .foods{
-         margin-top: 450px;
-         padding-right:82px;
-     }
-
-     .ipad span svg {
-        width: 100%;
-       }
-
-
-  
-
- @media(max-width: 500px) {
-
-
-    .container-nav ul{
-        display: block;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 5px;
-        width: 280px;
-        height: 260px;
-        margin-top: 65px;
-        margin-left: 390px;
-        display:none ;
-   }
-
-
-   .market-background {
-    background-color:#ffff;
-    height: 120px;
-    width: 100%;
-    
-   }
-
-
-   .loop{
-       width: 840px;
-       height: 130px;
-       margin-top: 60px;
-       font-size: 45px;
-       padding-right: 30px;
-   }
-
-
-   .loop select{
-    width: 20px;
-
-   }
-
-   .soop{
-    width: 840px;
-    height: 130px;
-    margin:160px 0px;
-    font-size: 45px;
-
-   }
-
-   .soop select{
-       width: 20px;
-    
-   }
-
-   .soop svg{
-    width: 35px;
-    height: 30px; 
-   }
-
-   .header-btn{
-    width: 840px;
-     height: 130px;
-     margin: 270px 20px;
-     font-size: 40px;
-   }
-
-   .loop svg{
-       font-size: 80px;
-       width: 35px;
-       height: 30px;
-    
-   }
-
-   .vege  span svg{
-       width: 60px;
-       height: 50px;
-   }
-
-   .spices  span svg{
-    width: 60px;
-    height: 50px;
-}
-
-  .fruits  span svg{
-    width: 60px;
-    height: 50px;
-}
-
-   .tube  span svg{
-    width: 60px;
-    height: 50px;
-}
-
-   .palm  span svg{
-    width: 60px;
-    height: 50px;
-}
-
-   .container-navbar ul li {
-       margin-right: 40px;
-       /* padding-right: 20px; */
-       margin: 10px 0;
-   }
-
-   .container-navbar ul{
-       margin-right: 90px;
-       
-   }
-  
-    .item{
-        width: 840px ;
-        margin: 0 40px;
-    }
-
-    .container-logo{
-        position: absolute;
-        bottom: 60px;
-    }
-
-    .container-logo svg{
-       margin-left: 20px;
-       margin-top: 10px;
-       font-size: 50px;
-       width: 80px;
-       height: 75px;
-    }
-
-   .categories ul{
-    padding-left: 15px;   
-    overflow-x: scroll;
-    width: 820px;
-    white-space: nowrap;
-  
-   }
-
-
-   .categories ul li a{
-       font-size: 65px;
-   }
-
-
-      .icons{
-          position: absolute;
-          right: 150px;
-          bottom: 75px;
-          font-size: 30px;
-      }
-     
-     .icons svg{
-       margin-right: 100px;
-       margin-bottom:70px;
-       width: 80px ;
-       height: 60px;
-     }
-
-
-     .hang-b{
-        position: absolute;
-        left: 820px;
-        bottom: 50px;
-        display: block;
-        width: 30px;
-        height: 30px;
-     }
-
-     .hang-b svg{
-        width: 50px ;
-        height: 47px ;
-    }
-
-     .dash{
-        position: absolute;
-        left: 820px;
-        bottom: 20px;
-        /* display: block; */
-        width: 30px;
-        height: 30px;
-      }
-
-     
-
-
-    .nav-logo{
-        width: 850px;
-        font-size: 55px;
+    .header-btn{
+        width: 884px;
+        height: 95px;
         margin-top: 140px;
-        margin-bottom: 50px;
+        margin-left: 50px;
+        font-size: 40px;
+        font-family: Inter;
     }
 
-   .mas{
-       font-size: 40px;
-   }
+    .categories ul{
+     padding-left:40px ;
+     overflow-x: scroll;
+     width: 850px;
+     white-space: nowrap;
+     margin-top: 190px;
+    }
 
-    .mas span svg{
-        width: 180px;
-        height: 30px;
+    .all a {
+      font-size: 60px;  
+    }
+
+
+
+    .vege a {
+        font-size: 60px;
+    
+      }
+
+      .vege a span svg{
+          width: 50px;
+          height: 50px ;
+      }
+
+      .spices a {
+        font-size: 60px;  
+      }
+
+
+      .spices a span svg{
+        width: 50px;
+        height: 50px ;
+      }
+
+
+      .fruits a {
+        font-size: 60px;  
+      }
+
+
+
+      .fruits a span svg{
+        width: 50px;
+        height: 5 ;
+      }
+
+
+      .tube a {
+        font-size: 60px;  
+      }
+
+
+
+      .tube a span svg{
+        width: 50px;
+        height: 50px ;
+     }
+
+
+      .palm a {
+        font-size: 60px;  
+      }
+
+
+
+      .palm a span svg{
+        width: 50px;
+        height: 50px ;
+     }
+
+
+    .item{
+        width: 900px;
+        margin: 0 30px;
+        height:970px;
+    }
+
+    .items{
+      padding: 20px;
+    }
+
+    .items svg{
+        width: 900px;
+        height: 560px;
+
+
+    }
+
+    .note{
+        position: relative;
+        bottom: 620px;
+        width: 240px;
+        height: 75px;
         font-size: 30px;
     }
 
-     .map{
-         font-size: 45px;
-     }
-
-     .root{
-         font-size: 55px;
-     }
-
-  .note{
-      position: relative;
-      bottom: 590px;
-      width: 240px;
-      height: 80px;
-      font-size:30px;
-      
-  }
-     
-     .note  span svg{
-         width: 25px;
-         height: 35px;
-         margin-left:  20px;
-     }
-     
-
-   .footer h1{
-    font-size: 50px;
-  }
-
-  .footer-container{
-      padding: 10px;
-  }
-
-  .link{
-      font-size:40px;
-      margin: 0 100px;
-       height:30px ;
-       width:90px ;
-    
-     
-  }
+    .note span svg{
+        width: 40px;
+        height: 35px;
+    }
 
 
-  .link{
-      padding: 0 px;
-  }
+    .root{
+        font-size: 50px;
+        padding-top: 40px;
+        margin-left: 40px;
+    }
 
-  .foot{
-      font-size: 40px;
-    
-  }
-       
-   
-   .foods{
-      padding-left: 130px;
-      width: 800px;
-      font-size: 40px;
-      padding-top: 430px;
-      margin-bottom: 20px;
-   }
+    .masu{
+        font-size: 40px;
+        height: 90px;
+    }
 
+    .masu span svg{
+      width: 150px;
+      height: 30px;
+      margin-left: 40px;
+
+    }
+
+    .mapo{
+        font-size: 40px;
+        padding: 40px;
+
+    }
+
+
+
+
+    #footer{
+        width: 800px;
+        background: none;
+    }
+
+    .footer-flex{
+        display: block;
+    }
+
+
+     .api{
+        margin-left: 40px;
+        font-size: 60px;
+
+    }
+
+
+    .first-items li {
+        margin-left: 50px;
+        font-size: 40px;
+        color: #8588A3;
+    }
+
+
+
+    .link{
+        margin-left: 90px;
+        margin-top: 70px;
+        padding-bottom: 30px;      
+        font-size: 40px;
+    }
 }
