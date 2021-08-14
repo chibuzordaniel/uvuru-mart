@@ -86,14 +86,14 @@
 
     .rate select{
         font-size: 50px;
-        height: 55px;
-        width: 600px;
+        height: 70px;
+        width: 660px;
         margin-top: 30px;
 
     }
 
     .rate select option{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .saver{
@@ -117,15 +117,15 @@
     
     .saver select{
         font-size: 50px;
-        height: 55px;
-        width: 610px;
+        height: 70px;
+        width: 660px;
         margin-top: 30px;
         padding-left: 20px;
 
     }
 
     .saver select option{
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
