@@ -18,7 +18,21 @@
      }
 
      .container-nav ul{
+         display: block;
+         background: peru;
+         height:300px;
+         width: 300px;
+         position: absolute;
+         right:90px;
+         top: 130px;
          display: none;
+     }
+
+     .container-nav ul li{
+         font-size: 30px; 
+         padding: 20px;
+       
+         
      }
 
       
@@ -34,91 +48,113 @@
         height: 80px;
     }
 
+  /* nav-logo */
+     
+
     .nav-logo{
-     width: 750px;
-     height: 58px;
-     font-family: Inter;
-     font-style: normal;
-     font-size: 50px;
-     font-weight: 400px;
-     margin-left: 60px;
-     margin-top: 200px;
+        width:650px;
+        height: 48px;
+        font-size: 44px;
+        font-family: Inter;
+        margin-left: 40px;
+        margin-top: 180px;
     }
 
-   
     .container-navbar ul{
+        margin-top: 180px;
         display: block;
         background: none;
     }
 
-     .boom{
-         margin-top: 190px;
-     }
+    .rate{
+        width: 120%;
+        height: 120px;
+        background-color: #ffff;
+        margin-left: 35px;
+        border-radius: 999px;
+       
 
-    .loop{
-        background: #fff;
-        width: 884px;
-        height: 95px;
-        text-align: center;
-        padding-top: 15px;
-        border-radius: 99px;
-        margin-left: 30px;
-        font-size: 40px;
-        font-family:Inter ;
     }
 
-    .loop svg{
-        width: 40px ;
-        height: 40px ;
-        margin-right: 30px;
+    .rate svg{
+    width: 60px;
+    height: 70px;
+    padding-left: 20px;
+    position: relative;
+    left: 40px;
+    }
+
+    .rate select{
+        font-size: 50px;
+        height: 55px;
+        width: 600px;
+        margin-top: 30px;
+
+    }
+
+    .rate select option{
+        font-size: 14px;
+    }
+
+    .saver{
+        width: 120%;
+        height: 120px;
+        background-color: #ffff;
+        margin-top: 30px;
+        margin-left: 35px;
+        border-radius: 999px;
+    }
+
+    
+    .saver svg{
+        width: 60px;
+        height: 70px;
+        padding-left: 20px;
+        position: relative;
+        left: 50px;
+        }
+    
+    
+    .saver select{
+        font-size: 50px;
+        height: 55px;
+        width: 610px;
+        margin-top: 30px;
+        padding-left: 20px;
+
+    }
+
+    .saver select option{
+        font-size: 14px;
     }
 
 
-    .loop select{
-      margin-left: 30px;  
+
+
+    .header{
+        width: 120%;
+        height: 120px;
+        margin-left: 35px;
+        margin-top: 40px;
     }
 
-    .soop{
-        background: #fff;
-        width: 884px;
-        height: 95px;
-        text-align: center;
-        padding-bottom: 35px;
-        margin-top: 60px;
-        border-radius: 99px;
-        margin-left: 30px;
-        font-family: Inter;
-        font-size: 40px;
-        padding: 10px;
+    .header a{
+        font-size: 45px;
+        color: #ffff;
     }
 
 
-    .soop svg{
-        width:40px ;
-        height: 40px;
-        margin-right: 40px;
-    }
+   /* Categories */
 
-    .soop select{
-        margin-left: 30px;
-    }
-
-    .header-btn{
-        width: 884px;
-        height: 95px;
-        margin-top: 140px;
-        margin-left: 50px;
-        font-size: 40px;
-        font-family: Inter;
-    }
-
-    .categories ul{
+     .categories ul{
      padding-left:40px ;
      overflow-x: scroll;
      width: 850px;
      white-space: nowrap;
-     margin-top: 190px;
-    }
+     margin-top: 600px;
+    } 
+
+
 
     .all a {
       font-size: 60px;  
@@ -182,6 +218,7 @@
         height: 50px ;
      }
 
+  /* item */
 
     .item{
         width: 900px;
@@ -203,14 +240,17 @@
     .note{
         position: relative;
         bottom: 620px;
-        width: 240px;
+        width: 250px;
         height: 75px;
         font-size: 30px;
     }
 
     .note span svg{
         width: 40px;
-        height: 35px;
+        height: 40px;
+        margin: px 0;
+        position: relative;
+        top: 5px;
     }
 
 
@@ -268,8 +308,8 @@
 
     .link{
         margin-left: 190px;
-        margin-top: 70px;
-        padding-bottom: 30px;      
+        margin-top: 90px;
+        padding-bottom: 70px;      
         font-size: 40px;
     }
 }

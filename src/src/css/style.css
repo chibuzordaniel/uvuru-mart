@@ -10,7 +10,6 @@ body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: scroll;
-    /* overflow: hidden; */
     font-family: sans-serif;
 }
 
@@ -39,7 +38,6 @@ body{
     margin-top: 18px;
     height: 40px;
     width: 40px;
-    /* margin-right: 15px; */
 }
 
 .container-nav{
@@ -85,17 +83,11 @@ justify-content: space-between;
 
 .container-nav ul {
     display: flex;
-    /* margin-right: 400px; */
     list-style: none;
     align-items: center;
     font-family: Roboto;
 }
 
-/* .container-nav ul li a:hover{
-    background: rgba(255, 71, 62, 0.04);
-    height: 77px;
-    width: 144px;
-} */
 
 .container-nav ul li a{
     padding: 20px;
@@ -179,30 +171,81 @@ justify-content: space-between;
 
 }
 
+.nav-logo h1 {
+    width: 100%;
+    font-family: Inter;
+    font-size: 64px;
+
+}
+
 .nav-logo span{
     color: #FF473E;
 }
 
 
-.container-navbar ul{
-    color: #8588A3; 
-    background: #fff;
-    list-style: none;
+.rate svg{
+    width: 20px;
+    height: 15px;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+    margin-left: 45px;
+}
+
+.rate select{
+    margin-left: 70px;
+    width: 210px;
+    height: 20px;
+    border: none;
+    font-size: 17px;
+    font-family: Inter;
+}
+
+
+.saver select{
+    margin-left: 75px;
+    width: 180px ;
+    height: 20px;
+    margin-bottom: 90px;
+    border: none;
+    font-size:17px ;
+    font-family: Inter;
+}
+
+
+
+
+.saver svg{
+    width: 60px;
+    height: 15px;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.header{
+    margin-left: 70px;
+    width: 200px;
+    height: 60px;
     border-radius: 999px;
+    background:#FF473E ;
+    border: none;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.container-navbar ul {
+    display:flex;
+    background: #ffff;
+    width: 750px;
+    height: 60px;
+    border-radius: 999px;
+    list-style: none;
     margin-top: 40px;
-    display: flex;
-    width: 800px;
-    margin-left: 5px;
-}
-
-.container-navbar ul li{
-    padding: 20px;
-    width: 800px;
-    height: 64px;
-}
-
-.container-navbar ul li span{
-    border-color: #ffff;
 }
 
 
@@ -213,62 +256,9 @@ height: 50px;
 
 
 
-.header-btn{
-    font-size: 18px;
-    border: none;
-    border-radius: 999px;
-    width: 350px;
-    height: 64px;
-    background: #FF473E;
-    color: #ffff;
-}
-
-.span select{
-    border: none;
-    width: 20px;
-   
-}
-
-.soop{
-    width: 300px;
-    font-size: 20px;
-}
 
 
 
-.soop svg{
-    width: 17px;
-    font-size: 20px;
-    margin-top: 1px;
-    
-}
-
-
-.header-btn:hover{
-
-}
-
-
-.loop{
-margin-bottom: 30px ;
-font-size: 20px;
-}
-
-
-.loop svg{
-    width: 35px;
-    height: 20px;
-}
-
-.loop select{
-    height: 10px;
-} 
-
-.boom select{
-    border: none;
-    width: 20px;
-
-}
 
 /* categories */
 
@@ -281,6 +271,7 @@ font-size: 20px;
 
 .categories ul li{
 list-style: none;
+
 
 }
 
@@ -402,6 +393,8 @@ font-size: 20px;
     .note span svg{
         width: 17px;
         height: 13px;
+        position: relative;
+        top: 1px;
 
     }
 
