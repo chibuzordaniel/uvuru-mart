@@ -11,6 +11,15 @@
         right: 40px;
         bottom: 25px;
     }
+
+    .dash{
+        display: block;
+        position: absolute;
+        width: 50px;
+        right: 40px;
+        bottom:25px ;
+    }
+
       
      .market-background{
          height: 120px;
@@ -19,13 +28,13 @@
 
      .container-nav ul{
          display: block;
-         background: peru;
+         background:#ffff;
          height:300px;
          width: 300px;
          position: absolute;
          right:90px;
          top: 130px;
-         display: none;
+         /* display: none; */
      }
 
      .container-nav ul li{
@@ -34,6 +43,23 @@
        
          
      }
+
+     .top {
+         background: none;
+
+     }
+
+     .rest:hover{
+         background: none;
+       }
+
+       .bar:hover{
+        background: none;
+      }
+
+      .story:hover{
+        background: none;
+      }
 
       
     .container-logo svg{
@@ -89,12 +115,13 @@
         height: 70px;
         width: 660px;
         margin-top: 30px;
+        outline: none;
 
     }
 
     .rate select option{
         font-size: 12px;
-    }
+    } 
 
     .saver{
         width: 120%;
@@ -121,12 +148,13 @@
         width: 660px;
         margin-top: 30px;
         padding-left: 20px;
+        outline: none;
 
     }
 
-    .saver select option{
+      .saver select option{
         font-size: 12px;
-    }
+    }  
 
 
 

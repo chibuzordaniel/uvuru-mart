@@ -199,6 +199,7 @@ justify-content: space-between;
     border: none;
     font-size: 17px;
     font-family: Inter;
+    outline: none;
 }
 
 
@@ -210,6 +211,7 @@ justify-content: space-between;
     border: none;
     font-size:17px ;
     font-family: Inter;
+    outline: none;
 }
 
 
@@ -517,6 +519,7 @@ padding-top: 60px;
 font-size: 16px;
 padding-bottom: 30px;
 }
+
 
 
 
