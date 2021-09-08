@@ -17,3 +17,28 @@ function clickClose () {
     menuClose.style.display="none"
     dropDown.style.display="none"
 }
+
+// dropDown
+
+let icons = document.querySelector('.icons');
+let mp3 = document.querySelector('.mp3');
+let frame = document.querySelector('#frame');
+
+
+icons.addEventListener('click', clickOpen);
+mp3.addEventListener('click', clickClose);
+
+
+function clickOpen() {
+    icons.style.display="none"
+    mp3.style .display= "block"
+    frame .style.display="block"
+
+}
+
+
+function clickClose() {
+    icons.style.display="block"
+    mp3.style.display= "none"
+    frame.style.display="none"
+}

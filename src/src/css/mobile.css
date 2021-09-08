@@ -1,7 +1,8 @@
 @media (max-width:768px)  {
     .market-background {
-    
     }
+
+  
 
     .hang-b{
         display: block;
@@ -362,6 +363,7 @@
 
     .footer-flex{
         display: block;
+  
     }
 
 
@@ -386,4 +388,41 @@
         padding-bottom: 70px;      
         font-size: 40px;
     }
+
+
+
+      #frame{
+     /* position:absolute;  */
+       top: 110px; 
+       left:  620px; 
+      /* overflow-x: hidden; */
+      /* overflow-y: scroll; */
+      height: 1100px;
+
+    }  
+
+    .mp3{
+      position: relative;
+      right:-40px ;
+      top: 30px;
+      /* background: red; */
+      height: 5px;
+  }
+
+  
+  .icons{
+    margin-top: 18px;
+    height: 30px;
+    width: 40px;
+}
+
+
+.icons svg{
+  display: block;
+  position: absolute;
+  left: 300px;
+  bottom: 15px;
+}
+
+
 }
