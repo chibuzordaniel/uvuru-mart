@@ -670,15 +670,22 @@ padding-left: 130px;
 
 .ama svg{
     position:relative ;
-    top:  20px;
+    top:  3px;
     left: 20px;
     width: 16px;
     height: 16px;
 }
 
-.ama h5{
-    margin-left: 50px;
-    /* padding-top: 20px; */
+
+
+.ama select{
+    margin: 20px 30px;
+    width: 230px;
+    height: 20px;
+    border: none;
+    color:  #64688D;
+    background: #FBFCFF;
+    
 }
 
 .contact{

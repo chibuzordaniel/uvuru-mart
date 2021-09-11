@@ -410,19 +410,19 @@
   }
 
   
-  .icons{
+  /* .icons{
     margin-top: 18px;
     height: 30px;
     width: 40px;
-}
+} */
 
 
-.icons svg{
+/* .icons svg{
   display: block;
   position: absolute;
   left: 300px;
   bottom: 15px;
-}
+} */
 
 
 }
