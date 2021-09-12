@@ -79,6 +79,13 @@
         height: 80px;
     }
 
+    .icons svg{
+      position: relative;
+      left: 10px;
+      height: 80px;
+    }
+
+
   /* nav-logo */
      
 
