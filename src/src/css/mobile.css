@@ -398,15 +398,7 @@
 
 
 
-      #frame{
-     /* position:absolute;  */
-       top: 110px; 
-       left:  620px; 
-      /* overflow-x: hidden; */
-      /* overflow-y: scroll; */
-      height: 1100px;
 
-    }  
 
     .mp3{
       position: relative;
