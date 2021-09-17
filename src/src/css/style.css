@@ -47,7 +47,15 @@ body{
 
 .icons :hover #frame{
  display: block;
-}
+ height: 810px;
+ width: 380px;
+ position: absolute;
+
+} 
+
+
+
+
 
 .container-nav{
  width: 100%;
@@ -546,15 +554,15 @@ padding-bottom: 30px;
 
 #frame{
     display: none;
-    width: 374px;
+    width: 395px;
     background: #F5F7FD;
     position: absolute;
-    top: 70px;
-    left: 1200px;
-    position: fixed;
+    top: 55px;
+    left: 1395px;
+    /* position: ; */
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 700px;
+    height: 800px;
 }
 
 .frame{
@@ -566,7 +574,7 @@ padding-bottom: 30px;
 }
 
 .frame p span{
-    margin-left: 197px;
+    margin-left: 147px;
     position: relative;
     top: 26px;
 }
@@ -577,7 +585,7 @@ padding-bottom: 30px;
 
 .fram{
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 20px;
     color:#64688D;
     background:#fff;
@@ -636,7 +644,7 @@ padding-left: 130px;
 
 .today{
     width:315px;
-    height: 54px;
+    height: 50px;
     margin-left: 20px;
     border-radius: 999px;
     list-style: none;
@@ -644,10 +652,10 @@ padding-left: 130px;
 }
 
 .today svg{
- margin-left: 15px;
- font-size: 20px;
- width: 13px;
- width: 15px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    width: 15px;
 }
 
 .today select{
@@ -655,43 +663,44 @@ padding-left: 130px;
     width: 245px;
     height: 25px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
     background: #FBFCFF;
     border: none;
     color:  #64688D;
     
 }
 
-.ama{
+ .ama{
     width:315px;
     height: 54px;
-    margin-left: 20px;
+    /* margin-left: -10px; */
     border-radius: 999px;
     list-style: none;
     background: #FBFCFF;
     color:  #64688D;
     margin-top: 20px;
-}
+    padding: 30px;
+} 
 
-.ama svg{
+ .ama svg{
     position:relative ;
-    top:  3px;
-    left: 20px;
+    top:  30px;
+    left: -60px;
     width: 16px;
     height: 16px;
-}
+} 
 
 
 
 .ama select{
-    margin: 20px 30px;
+    margin: 20px 5px;
     width: 230px;
-    height: 20px;
+    height: 50px;
     border: none;
     color:  #64688D;
     background: #FBFCFF;
     
-}
+} 
 
 .contact{
     width:315px;
@@ -706,8 +715,14 @@ padding-left: 130px;
 
 
 .contact h5{
-    margin-left: 50px;
-    /* padding-top: 5px; */
+    position: absolute;
+    right:70px;
+    margin-top: 80px;
+    background: #FF473E;
+    width: 240px;
+    height: 50px;
+    margin-top: 120px;
+    padding: 20px  20px;
 }
 
 
@@ -720,8 +735,9 @@ padding-left: 130px;
 }
 
 .dopi{
-    padding: 40px 25px;
+    padding: 25px;
     color: #64688D;
+    margin-top: 150px;
 }
 
 .dou{
