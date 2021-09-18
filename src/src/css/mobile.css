@@ -409,19 +409,58 @@
   }
 
   
-  /* .icons{
-    margin-top: 18px;
-    height: 30px;
-    width: 40px;
-} */
+  .icons:hover  .ico{
+    width: 100%;
+    height: 1670px;
+    display: block;
+}
 
 
-/* .icons svg{
-  display: block;
+.ico{
   position: absolute;
-  left: 300px;
-  bottom: 15px;
-} */
+  right: 90px;
+  width: 400px;
+  padding-left: 90px;
+}
+
+.your{
+  padding-left: 30px;
+  font-size: 60px;
+}
+
+.frame svg{
+  margin-top: 55px;
+   width: 30px;
+   height: 30px; 
+  margin-left: 280px;
+}
+
+
+.pink{
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.pin{
+  font-size: 30px;
+  width: 100%;
+  padding: 5px  30px; 
+}
+
+.one{
+  margin-left: 40px;
+}
+
+.naira{
+  margin-left: 40px;
+}
+
+
+.time{
+  font-size: 25px;
+}
+
+
 
 
 }
