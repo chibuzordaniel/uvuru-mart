@@ -555,6 +555,7 @@ padding-bottom: 30px;
     width: 700px;
     height: 920px;
     display: block;
+    overflow-y: scroll;
 }
 
 .ico{
@@ -587,7 +588,7 @@ padding-bottom: 30px;
 .frame-background{
     background: #ffffff;
     width: 700px;
-    height: 1890px; ;
+    height: 2590px; ;
 }
 
 

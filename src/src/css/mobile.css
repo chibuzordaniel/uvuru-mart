@@ -408,10 +408,12 @@
       height: 5px;
   }
 
+
+  /* frame */
   
   .icons:hover  .ico{
     width: 100%;
-    height: 1670px;
+    height: 1770px;
     display: block;
 }
 
@@ -461,6 +463,118 @@
 }
 
 
+.today select{
+  position: relative;
+  bottom: 80px;
+  font-size: 33px;
+  width: 470px;
+  height: 44px;
+
+}
+
+.today option{
+ font-size: 12px;
+}
+
+.today{
+  width: 620px;
+  height: 90px;
+}
+
+.today svg{
+  position: relative;
+  left:  -260px;
+  bottom: 30px;
+}
+
+
+.today h2{
+  font-size: 33px;
+  margin-top: -65px;
+  padding-left: 70px;
+}
+
+
+.total{
+  font-size: 25px;
+}
+
+.pay{
+  width: 620px ;
+  height: 90px;
+  padding: 30px;
+  font-size: 27px;
+}
+
+.card{
+  font-size: 32px;
+}
+
+
+.number{
+  width: 620px;
+  height: 90px;
+}
+
+.number svg{
+  margin-left: 500px;
+  margin-top: 35px;
+}
+
+.number h3{
+  font-size: 30px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+
+.vali{
+  font-size: 25px;
+}
+
+.cvv{
+  margin-left:240px;
+}
+
+
+.mmyy{
+  width: 450px;
+  padding: 10px  50px;
+  height: 50px;
+  font-size: 30px;
+}
+
+
+
+.mm svg{
+  /* position: ; */
+  /* left: -290px; */
+  /* bottom: 35px; */
+ 
+}
+
+
+.check{
+  width: 600px;
+  height: 80px;
+  font-size: 32px;
+}
+
+.yy{
+  margin-right: 80px;
+  font-size: 27px;
+  padding: 20px;
+}
+
+.main img{
+  width: 650px;
+  height: 620px;
+}
+
+.main h1{
+  font-size: 40px;
+ 
+}
 
 
 }
