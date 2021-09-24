@@ -437,6 +437,11 @@
   margin-left: 280px;
 }
 
+.frame-background{
+  width: 720px;
+  height: 2700px;
+}
+
 
 .pink{
   padding-left: 30px;
@@ -539,8 +544,8 @@
 
 .mmyy{
   width: 450px;
-  padding: 10px  50px;
-  height: 50px;
+  padding: 20px  50px;
+  height: 20px;
   font-size: 30px;
 }
 
@@ -548,8 +553,11 @@
 
 .mm svg{
   /* position: ; */
-  /* left: -290px; */
-  /* bottom: 35px; */
+  left: -330px;
+  width: 80px;
+  height: 50px;
+  bottom: 50px;
+ 
  
 }
 
@@ -561,19 +569,25 @@
 }
 
 .yy{
-  margin-right: 80px;
-  font-size: 27px;
+  margin-right: 900px;
   padding: 20px;
+  width: 190px;
+  height: 80px;
+  font-size: 27px;
+  
 }
 
 .main img{
-  width: 650px;
-  height: 621px;
+  width: 680px;
+  height: 650px;
 }
 
 .main h1{
-  font-size: 41px;
- 
+  width: 400px;
+  font-size: 45px;
+  position: relative;
+   bottom: 400px; 
+
 }
 
 

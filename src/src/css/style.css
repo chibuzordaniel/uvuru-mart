@@ -552,10 +552,10 @@ padding-bottom: 30px;
 
 
 .icons:hover  .ico{
-    width: 700px;
+    width: 373px;
     height: 920px;
     display: block;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .ico{
@@ -564,7 +564,7 @@ padding-bottom: 30px;
     overflow-y: scroll;
     width: 900px;
     height: 750px;
-    margin-left: -40px;
+    margin-left: -120px;
 }
 
 
@@ -587,8 +587,8 @@ padding-bottom: 30px;
 
 .frame-background{
     background: #ffffff;
-    width: 700px;
-    height: 2590px; ;
+    width: 400px;
+    height: 2090px; ;
 }
 
 
@@ -788,9 +788,10 @@ padding-bottom: 30px;
 
 .main h1{
     width: 290px;
-    font-size: 27px;
-     color: #fff; 
-    margin-top: -210px;
+    font-size: 30px;
+    position: relative;
+    bottom: 200px;
+    color: #fff;
     padding-left: 50px;
 
 }
@@ -800,7 +801,7 @@ padding-bottom: 30px;
     margin-top: 30px;
     padding-left: 20px;
     width: 320px;
-    height: 390px;
+    height: 370px;
 
 }
 
