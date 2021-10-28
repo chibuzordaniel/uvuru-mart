@@ -20,17 +20,36 @@ function clickClose () {
 
 
 
-let item;
+// let item;
 
-item = document.querySelector(`.item`)
- console.log(item)
+// item = document.querySelector(`.item`)
+//  console.log(item)
 
 
- item = document.querySelector('.item')
+//  item = document.querySelector('.item')
 
- item.addEventListener('click', function(event){
-     console.log(item)
- })
+//  item.addEventListener('click', function(event){
+//      console.log(item)
+//  })
+
+
+ document.getElementById('items').addEventListener
+ ('click', loadTxt);
+
+ function loadTxt(){
+     fetch('data.txt')
+     .then(function(response){
+         return response.text();
+     })
+
+     .then(function(data){
+         console.log(data)
+         document.getElementById('pink').innerHTML = data;
+         document.getElementById('pin').innerHTML =data;
+        //  document.getElementById('pinp').innerHTML =data;
+     })
+   
+ }
 
 
 

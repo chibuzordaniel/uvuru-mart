@@ -109,10 +109,10 @@
 
 
     .rate{
-        width: 120%;
+        width: 117%;
         height: 120px;
         background-color: #ffff;
-        margin-left: 35px;
+        margin-left: 25px;
         border-radius: 999px;
        
 
@@ -149,11 +149,11 @@
 
 
     .saver{
-        width: 120%;
+        width: 117%;
         height: 120px;
         background-color: #ffff;
         margin-top: 30px;
-        margin-left: 35px;
+        margin-left: 25px;
         border-radius: 999px;
     }
 
@@ -188,9 +188,9 @@
 
 
     .header{
-        width: 120%;
+        width: 117%;
         height: 120px;
-        margin-left: 35px;
+        margin-left: 25px;
         margin-top: 40px;
     }
 
@@ -288,8 +288,9 @@
 
     .item{
         width: 900px;
-        margin: 0 30px;
+        margin: 5 30px;
         height:970px;
+      
     }
 
 
@@ -300,9 +301,10 @@
 
 
 
-    .items svg{
+    .item img{
         width: 900px;
         height: 560px;
+        line-height: 4;
 
 
     }

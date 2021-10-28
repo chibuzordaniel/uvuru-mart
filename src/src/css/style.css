@@ -369,7 +369,7 @@ font-size: 20px;
 /* ITEMS */
 
 
-  .item svg{
+  .item {
       width: 253px;
       height: 157px;
   }
@@ -562,14 +562,15 @@ padding-bottom: 30px;
     margin-top: 2px;
     display: none;
     overflow-y: scroll;
-    width: 900px;
+    width: 1500px;
     height: 749px;
-    margin-left: -30px;
+    margin-left: -140px;
 }
 
 
 .frame{
     display: flex;
+  
     
 }
 
@@ -588,7 +589,9 @@ padding-bottom: 30px;
 .frame-background{
     background: #ffffff;
     width: 400px;
-    height: 2090px; ;
+    height: 2090px; 
+   
+    
 }
 
 .pumpkin{
@@ -602,24 +605,30 @@ padding-bottom: 30px;
      margin-top: 50px;
 }
 
-.pink{
+#pink{
+    border: 1px solid #F5F7FD;
     display: flex;
-    margin-top: 80px;
-    padding-left: 20px;
+    width: 370px;
+    height: 60px;
+    margin-top: 30px;
+    padding-left: 30px;
     color: #4A4C65;
+    font-size: 20px;
+    padding: 20px ;
    
 }
 
 
 
 
-.pin{
+#pin{
     display: flex;
     margin-top: 40px;
-    padding-left: 20px;
+    padding-left: 30px;
     border: 1px solid #F5F7FD;
     width: 370px;
     padding: 20px ;
+    font-size: 20px;
     height: 60px;
     color: #4A4C65;
     
