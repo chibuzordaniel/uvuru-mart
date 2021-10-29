@@ -300,11 +300,18 @@
     }
 
 
+    .item svg{
+      width: 900px;
+      height: 560px;
+
+    }
+
+
 
     .item img{
         width: 900px;
         height: 560px;
-        line-height: 4;
+       
 
 
     }
