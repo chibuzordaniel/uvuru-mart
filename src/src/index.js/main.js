@@ -19,7 +19,6 @@ function clickClose () {
 }
 
 
-alert('Welcome To Uvuru Fast Grocery Delivery')
 
 // let item;
 
