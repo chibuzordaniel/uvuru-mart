@@ -45,11 +45,13 @@ function clickClose () {
      .then(function(data){
          console.log(data)
          document.getElementById('pink').innerHTML = data;
-         document.getElementById('pin').innerHTML =data;
-        //  document.getElementById('pinp').innerHTML =data;
+
      })
    
  }
+ 
+
+ 
 
 
 
