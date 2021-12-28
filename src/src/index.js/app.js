@@ -20,41 +20,17 @@ function clickClose () {
 
 
 
-// let item;
+// variables
 
-// item = document.querySelector(`.item`)
-//  console.log(item)
-
-
-//  item = document.querySelector('.item')
-
-//  item.addEventListener('click', function(event){
-//      console.log(item)
-//  })
+const itemd = document.querySelector('.itemd');
 
 
- document.getElementById('items').addEventListener
- ('click', loadTxt);
 
- function loadTxt(){
-     fetch('data.txt')
-     .then(function(response){
-         return response.text();
-     })
+itemd.addEventListener('click', openclick);
 
-     .then(function(data){
-         console.log(data)
-         document.getElementById('pink').innerHTML = data;
-
-     })
+function openclick(e) {
+ console.log(' ')
    
- }
- 
-
- 
-
-
-
-
+}
 
 
